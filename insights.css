@@ -1,0 +1,90 @@
+*{
+    font-family: 'Helvetica', sans-serif;
+}
+
+.fbc-color{
+    color: #ff5838;
+}
+header{
+    font-weight: 500;
+    /* position: sticky;
+    top: 0;
+    z-index: 2; */
+}
+header .navbar-nav li a {
+    color: black !important;
+    transition: 0.2s ease;
+}
+header .navbar-nav li a:hover,
+header .navbar-nav li a:active,
+header .navbar-nav li.active a {
+    color: #ff5838 !important;
+    font-weight: 700 !important;
+}
+.navbar-toggler:active,
+.navbar-toggler:focus{
+    outline: none;
+    border: none;
+}
+select:active,
+select:focus{
+    outline: none;
+    border: none;
+}
+
+.em-sub{
+    border-top: 0 !important;
+    border-bottom: 1px solid !important;
+    outline: none !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    box-shadow: none !important;
+}
+
+
+/* .navbar-collapse.collapse > ul > li.nav-item,
+.navbar-collapse.collapsing > ul > li.nav-item{
+    text-align: right;
+    transition: 0.2s ease;
+} */
+
+.navbar-collapse.collapse > ul,
+.navbar-collapse.collapsing > ul{
+    flex-direction: row;
+}
+
+i.fa-twitter.p-1{
+    color: white;
+    background: #1DA1F2;
+}
+
+i.fa-instagram.p-1{
+    color: white;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#e716a5 75%,#b404fa 100%);
+    background-size: contain; 
+}
+
+i.fa-linkedin.p-1{
+    color: white;
+    background: #0077b5;
+}
+
+.blog-grid div{
+    padding: 0;
+}
+
+i.fa.btn-outline-light{
+    outline: none;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .s-flex-rev{
+        flex-direction: row-reverse;
+    }
+}
+@media (min-width: 768px) {
+    .l-flex-rev{
+        flex-direction: row-reverse;
+    }
+}
